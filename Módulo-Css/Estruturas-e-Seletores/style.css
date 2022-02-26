@@ -1,0 +1,44 @@
+h1{
+  font-size:60px;
+  color:blueviolet;
+}
+
+p{
+  font-size: 36px;
+}
+
+.box-red{
+  background-color: red;
+}
+
+.box-aqua{
+  background-color: aqua;
+}
+
+.box{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  border-radius: 50%;
+  text-align:center;
+}
+
+#sessao-unica{
+  font-size: 56px;
+}
+
+.p{
+  margin: auto;
+}
+
+input[type]{
+background-color: rgb(44, 44, 247);
+}
+
+input::placeholder{
+  color: rgb(0, 0, 0);
+  }
+
+input[type="number"]{
+  background-color: rgb(247, 44, 196);
+  }
