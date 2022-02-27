@@ -1,0 +1,48 @@
+/*Reset Css*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+ul, ol, li { 
+list-style: none;
+}
+
+.exemple{
+  color: #fff
+}
+
+.exemple-item-first{
+  background-color: #faa116;
+}
+
+.exemple-item-second{
+  background-color: #57c7c3;
+}
+
+.exemple-item-third{
+  background-color: #3b97d3;
+}
+
+.exemple-item{
+  display:block;/*Default*/
+  /*Display aceita altura e por padrão pega toda largura se não for setado um valor*/
+  height: 150px;
+  width: 25%;
+}
+
+.exemple-item1{
+  display:inline;
+  /*Display inline não aceita altura e largura, ele simplismente ignora*/
+  height: 25px;
+  width: 25%;
+}
+
+.exemple-item2{
+  display:inline-block;
+  /*Display inline-block aceita altura e largura e respeita os valores definidos anteriormente*/
+  height: 150px;
+  width: 25%;
+}
