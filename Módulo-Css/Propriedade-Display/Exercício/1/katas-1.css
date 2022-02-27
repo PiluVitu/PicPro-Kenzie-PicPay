@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1{
+  font-size: 60px;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  border-bottom: 4px solid black;
+  font-size: 3em;
+  margin: 30px;
+ }
+
+ ul{
+   display: inline-block;
+   border-bottom: 4px solid black;
+   padding-bottom: 20px;
+   max-width: 575px;
+ }
