@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: 'Shippori Antique B1', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+header{
+  margin: 10px;
+  align-self: center;
+  background: linear-gradient(to left, #00b09b, #96c93d);
+  align-items: center;
+  width: 98%;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  margin-bottom:5px ;
+}
+
+a{
+  color: rgb(168, 80, 240);
+}
+
+nav{
+min-width: 70%;
+}
+
+ul{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+li{
+  color:#fff;
+  margin: 15px;
+}
+
+.menuHighlight{
+  color: rgb(255, 40, 40);
+}
+
+main{
+  min-height: 100vh;
+  background-color: gray;
+  margin: 10px;
+}
