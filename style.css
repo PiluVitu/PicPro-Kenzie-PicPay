@@ -26,6 +26,7 @@ nav{
   width: 50%;
   align-self: center;
 }
+
 .menu-flex{
   display: flex;
   list-style: none;
@@ -50,11 +51,43 @@ nav{
 }
 
 main{
-margin: 100px;
+margin: 200px;
 }
 
 footer{
+  display: flex;
   background: #4ECDC4;
   background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
   background: linear-gradient(to right, #556270, #4ECDC4);
+  min-height: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-text{
+  margin: 15px auto;
+}
+
+.social-container{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.social-item{
+  height: 50px;
+  margin: 0 25px;
+}
+
+.but-top{
+  margin: 15px;
+  font-weight: bold;
+  background-color: #fff;
+  border-bottom-right-radius:20px;
+  padding: 7px;
+  color: black;
+
+}
+.but-top:hover{
+  background-color: #00ff99;
 }
