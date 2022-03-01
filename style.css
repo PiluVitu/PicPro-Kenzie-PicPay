@@ -43,6 +43,10 @@ nav{
 }
 .menu-item>a{
   color: black;
+
+}
+.menu-item:hover{
+  background-color: #00ff99;
 }
 
 main{
