@@ -3,26 +3,124 @@
   <head>
     <meta charset="UTF-8">
     <title>PicPro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     
-    <header>
-      <div>
+    <header class="header">
+      <div class="headerContainer">
         <!--Tags usadas para trazer importancia para midia-->
-        <figure><img src="/img/logo-picpro.png" alt="Logo-PicPro"></figure>
-        <figure><img src="/img/logo-kenzie.png" alt="Logo-Kenzie"></figure>
+        <figure class="logoPicPro_header"><img src="/img/logo-picpro.png" alt="Logo-PicPro"></figure>
+        <figure class="logoKenzie_header"><img src="/img/logo-kenzie.png" alt="Logo-Kenzie"></figure>
       </div>
     </header>
 
     <main>
-      <section>
-        <div>
-          <img src="" alt="Ícone do usuário">
+      <section class="sessaoDetalhesConta">
+        <div class="sessaoDetalhesConta_perfil">
+          <img class="perfil-foto" src="/img/Foto_perfil_aternatovaprosite.png" alt="Ícone do usuário">
           <p>Olá, <strong>@piluvitu</strong></p>
+        </div>
+        <div class="sessaoDetalhesConta_saldo">
+          <p>Saldo PicPay <strong>R$ 0,00</strong></p>
+          <button>Extrato</button>
+        </div>
+        <ul class="sessaoDetalhesConta_opocoesTransacoes">
+          <li class="secaoDetalhesConta_itemTransacoes">
+            <img src="/img/qrcode.png" alt="Qr-Code-icon">
+            <p>QR Code</p>
+          </li>
+          <li class="sessaoDetalhesConta_itemTransacoes">
+            <img src="/img/pix.png" alt="Pix-icon">
+            <p>Pix</p>
+          </li>
+          <li class="sessaoDetalhesConta_itemTransacoes">
+            <img src="/img/codigo.png" alt="Codigo-icon">
+            <p>Pagar Boleto</p>
+          </li>
+          <li class="sessaoDetalhesConta_itemTransacoes">
+            <img src="/img/cobrar-icon.png" alt="Cobrar-icon">
+            <p>Cobrar</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sessaoTransacao">
+        <div class="sessaoTransacao_container">
+          <div class="payment-format">
+            <p>Selecione a forma de pagamento</p>
+            <img src="/img/banner.png" alt="Banner-PicPay">
+          </div>
+          <div class="qrcode-menu">
+            <img src="/img/qrcode-imagem.png" alt="Imagem-QrCode">
+            <p>@piluvitu</p>
+            <button>Cobre um amigo</button>
+            <a href="">Compartilhar meu código</a>
+          </div>
+          <div class="pix-menu">
+            <img src="/img/pix-logo.png" alt="pix-logo">
+            <div class="box-opcao">
+              <img src="/img/pix1.png" alt="pix1-logo">
+              <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
+            </div>
+            <div class="box-opcao">
+              <img src="/img/pix2.png" alt="pix2-logo">
+              <p>Insira um código Pix Copia e Cola para </p>
+            </div>
+          </div>
+          <div class="boleto-menu">
+            <img src="/img/boleto.png" alt="Boleto-icon">
+            <h2>Pagar com código de barras</h2>
+            <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira par apagar á vista</p>
+            <input type="text" placeholder="Insira o código de barras"></input>
+          </div>
+          <div class="cobrar-menu">
+            <img src="/img/cobrar.png" alt="Cobrar-img">
+            <h2>Cobrar</h2>
+            <div class="box-opcao">
+              <img src="/img/picpay-icon.png" alt="PicPay-icon">
+              <p><strong>Amigos no PicPay</strong><span>Divida e acompanhe um gasto com pessoas por aqui</span></p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+        <ul class="footer_menuPrincipal">
+          <li class="footer_menuItem">
+            <a href="#">
+              <img src="/img/inicio.png" alt="Início-icon">
+              <p>Início</p>
+            </a>
+          </li>
+          <li class="footer_menuItem">
+            <a href="#">
+              <img src="/img/carteira-icon.png" alt="Carteira-icon">
+              <p>Carteira</p>
+            </a>
+          </li>
+          <li class="footer_menuItem">
+            <a href="#">
+              <img src="/img/pagar.png" alt="Pagar-icon">
+              <p>Pagar</p>
+            </a>
+          </li>
+          <li class="footer_menuItem">
+            <a href="#">
+              <img src="/img/notificacao.png" alt="Notificação-icon">
+              <p>Notificações</p>
+            </a>
+          </li>
+          <li class="footer_menuItem">
+            <a href="#">
+              <img src="/img/bolsa.png" alt="Bolsa-icon">
+              <p>Store</p>
+            </a>
+          </li>
+        </ul>
+    </footer>
 
   <script src="script.js"></script>
   </body>

@@ -1,0 +1,11 @@
+body{
+  background-color: #228664;
+}
+
+.header{
+  border-bottom: 1px solid #fff ;
+}
+
+.perfil-foto{
+  border-radius: 50%;
+}
