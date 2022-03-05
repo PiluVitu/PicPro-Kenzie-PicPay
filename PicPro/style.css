@@ -3,9 +3,45 @@ body{
 }
 
 .header{
-  border-bottom: 1px solid #fff ;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4) ;
+  padding: 20px 0 ;
+}
+.header .headerContainer{
+  display: flex;
+  align-items: baseline;
 }
 
-.perfil-foto{
+.header figure img{
+  width: 100%;
+  max-width: 140px;
+}
+
+.header .logoPicPro_header{
+  border-right: 1px solid rgba(255, 255, 255, 0.4) ;
+  margin-right: 15px;
+}
+
+.sessaoDetalhesConta{
+  color: #fff;
+  padding: 60px 0 30px;
+}
+
+.sessaoDetalhesConta_perfil{
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.sessaoDetalhesConta_perfil p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.sessaoDetalhesConta_perfil img{
   border-radius: 50%;
+  width: 100%;
+  max-width: 50px;
+}
+
+.sessaoDetalhesConta_perfil p strong {
+ display: block;
 }
